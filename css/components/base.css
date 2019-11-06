@@ -1,0 +1,217 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: 'Muli', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 36px;
+  background-color: #c0c0c0;
+  color: #fff;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  background-color:#1f1f1e;
+  background-image: url(../../img/fake-brick.png);
+  min-height: 100%;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a,
+.link {
+  color: #1976d2;
+  text-decoration: underline;
+}
+
+a:hover,
+.link:hover {
+  color: #f77802;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p,
+ul,
+ol,
+figure {
+  margin: 0 0 15px 0;
+}
+
+p + .button {
+  margin: 25px 0 0 0;
+}
+
+p {
+  color: #fff;
+  line-height: 22px;
+}
+
+* + p,
+* + ul,
+* + ol,
+* + figure {
+  margin-top: 15px;
+}
+
+button,
+a {
+  outline: none;
+}
+
+ul > li > ol,
+ul > li > ul,
+ol > li > ol,
+ol > li > ul {
+  margin: 0;
+}
+
+ol,
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.67em 0;
+  line-height: normal;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 42px;
+}
+h3 {
+  font-size: 26px;
+}
+h4 {
+  font-size: 20px;
+}
+
+
+* + h1,
+* + h2,
+* + h3,
+* + h4,
+* + h5,
+* + h6 {
+  margin-top: 0.67em;
+}
+
+input,
+select,
+textarea {
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  font-size: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  background-color: #fff;
+  color: #666;
+  border-color: #00e0d0;
+}
+
+input:disabled,
+select:disabled,
+textarea:disabled {
+  background-color: #f8f8f8;
+  color: #999;
+  border-color: #e5e5e5;
+}
+
+input::-webkit-input-placeholder {
+  color: #413d4b;
+}
+
+input::-moz-placeholder {
+  color: #413d4b;
+}
+
+input:-ms-input-placeholder {
+  color: #413d4b;
+}
+
+input::-ms-input-placeholder {
+  color: #413d4b;
+}
+
+input::placeholder {
+  color: #413d4b;
+}
+
+textarea::-webkit-input-placeholder {
+  color: #413d4b;
+}
+
+textarea::-moz-placeholder {
+  color: #413d4b;
+}
+
+textarea:-ms-input-placeholder {
+  color: #413d4b;
+}
+
+textarea::-ms-input-placeholder {
+  color: #413d4b;
+}
+
+textarea::placeholder {
+  color: #413d4b;
+}
+
+textarea {
+  resize: none;
+}
+
+.wrap-page {
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.color-danger {
+  color: #c10306;
+}
+
+.content-transition {
+  position: relative;
+  margin-top: 50px;
+  font-size: 30px;
+  color: #1c1c1b;
+  font-weight: 600;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}

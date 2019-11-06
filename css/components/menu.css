@@ -1,0 +1,30 @@
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu__item + .menu__item {
+  padding-left: 30px;
+}
+
+.menu__link_hover,
+.menu__link {
+ font-size: 18px;
+ text-transform: uppercase;
+ text-decoration: none;
+ color: #fff;
+ font-weight: 600;
+ letter-spacing: 1px;
+}
+
+.menu__link:hover > .menu__link_hover{
+  color: #c10306;
+}
+
+.menu__link:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,10 @@
+.decor-pyramid::before {
+  content: "";
+  border: 24px solid transparent;
+  border-top: 24px solid #da590b;
+  position: absolute;
+  left: 50%;
+  margin-left: -11px;
+  top: 128%;
+  width: 0
+}

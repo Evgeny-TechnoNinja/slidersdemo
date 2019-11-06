@@ -1,0 +1,79 @@
+/*slick slider */
+
+.slick-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+
+}
+.slick-slider__item {
+
+}
+
+.slick-slider__item:focus {
+  outline: none;
+}
+
+.slick-slider__btn-left,
+.slick-slider__btn-right {
+  position: absolute;
+  cursor: pointer;
+  z-index: 1000;
+  font-size: 40px;
+  color: #da590b;
+}
+
+.slick-slider__btn-left:hover,
+.slick-slider__btn-right:hover {
+  color: #c10306;
+}
+
+.slick-slider__btn-right {
+  right: -90px;
+}
+
+.slick-slider__btn-left {
+  left: -90px;
+}
+
+/* owlcarousel */
+.section__content-owlcarousel-slider > .owl-theme .owl-dots .owl-dot {
+  background-color: #da590b;
+}
+
+/* swiper */
+.section__content-swiper-slider {
+  position: relative;
+}
+
+.section__content-swiper-slider
+.swiper-slider__btn-left,
+.swiper-slider__btn-right {
+    position: absolute;
+    top: 35%;
+    cursor: pointer;
+    z-index: 1000;
+    font-size: 40px;
+    color: #da590b;
+}
+
+.swiper-slider__btn-left {
+  left: 0;
+}
+
+.swiper-slider__btn-right {
+  right: 0;
+}
+
+.section__content-swiper-slider
+.swiper-slider__btn-left:hover,
+.swiper-slider__btn-right:hover {
+  color: #c10306;
+}

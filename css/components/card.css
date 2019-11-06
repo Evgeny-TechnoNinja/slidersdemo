@@ -1,0 +1,50 @@
+.card {
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #151413;
+  border: 1px solid rgba(218, 89, 11, 0.4);
+}
+
+.card__content-top {
+  position: relative;
+  background: green;
+}
+
+.card:hover > .card__content-top > .card__link {
+  display: block;
+}
+
+.card__figure .card__picture {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 250px;
+}
+
+.card__link {
+  display: none;
+  padding: 10px 0;
+  background-color: #da590b;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-transform: capitalize;
+  font-size: 17px;
+  color: #fff;
+}
+.card__link:hover {
+  color: #fbdd0a;
+}
+
+.card__time {
+  font-style: italic;
+  font-size: 13px;
+  color: #da590b;
+}
+
+.card__txt {
+  margin-top: 0;
+  font-style: italic;
+  font-size: 18px;
+}

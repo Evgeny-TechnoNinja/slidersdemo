@@ -1,0 +1,12 @@
+.footer {
+margin-top: 60px;
+padding: 20px 0;
+background-color: #0e0e0e;
+text-align: center;
+}
+
+.footer__txt {
+  margin: 0;
+  font-size: 20px;
+  color: #fbdd0a;;
+}
